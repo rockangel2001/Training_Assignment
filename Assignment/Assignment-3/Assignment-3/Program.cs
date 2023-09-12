@@ -23,15 +23,40 @@ namespace Assignment_3
         }
         static void Question_3A()
         {
-
+            Console.WriteLine("Question_3A");
+            Console.WriteLine("Enter a Word ");
+            string input = Console.ReadLine();
+            Console.WriteLine($"The Length of word is {input.Length}");
         }
+
         static void Question_3B()
         {
+            Console.WriteLine("Question_3B");
+            Console.WriteLine("Enter a Word ");
+            string input = Console.ReadLine();
+            char[] charArray = input.ToCharArray();
+            Array.Reverse(charArray);
+            string reversedword = new string(charArray);
 
+            Console.WriteLine("Reversed word is : " + reversedword);
         }
         static void Question_3C()
         {
-
+            Console.WriteLine("Question_3C");
+            Console.WriteLine("Enter the 1st Word : ");
+            string first_1 = Console.ReadLine();
+            Console.WriteLine("Enter the 2nd Word : ");
+            string second_2 = Console.ReadLine();
+            if (first_1 == second_2)
+            {
+                Console.WriteLine($"1st Word {first_1} and 2nd Word {second_2} are Same.");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine($"1st Word {first_1} and 2nd Word {second_2} are Not Same.");
+                Console.ReadLine();
+            }
         }
     }
 }
