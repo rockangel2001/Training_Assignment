@@ -1,0 +1,7 @@
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-5\Assignment5a\Assignment-5\bin\Debug\Assignment-5.exe.config
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-5\Assignment5a\Assignment-5\bin\Debug\Assignment-5.exe
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-5\Assignment5a\Assignment-5\bin\Debug\Assignment-5.pdb
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-5\Assignment5a\Assignment-5\obj\Debug\Assignment-5.csproj.AssemblyReference.cache
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-5\Assignment5a\Assignment-5\obj\Debug\Assignment-5.csproj.CoreCompileInputs.cache
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-5\Assignment5a\Assignment-5\obj\Debug\Assignment-5.exe
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-5\Assignment5a\Assignment-5\obj\Debug\Assignment-5.pdb
