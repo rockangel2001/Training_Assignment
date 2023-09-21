@@ -24,10 +24,10 @@ namespace Assignment_5
 
             Console.Write("Enter City: ");
             string city = Console.ReadLine();
-                
+
             //customer object using the parameterized constructor
             Customer customer1 = new Customer(customerId, name, age, phone, city);
-            
+
             //printing customer info using static method
             Customer.DisplayCustomer(customer1);
 
@@ -64,8 +64,12 @@ namespace Assignment_5
         }
         ~Customer()
         {
-            
+
         }
     }
-    
+
 }
+persistence using stream reader and writer
+
+
+
