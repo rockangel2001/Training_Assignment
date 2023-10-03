@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\bin\Debug\Assignment_4.exe.config
 D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\bin\Debug\Assignment_4.exe
 D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\bin\Debug\Assignment_4.pdb
@@ -5,3 +8,16 @@ D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\obj\De
 D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\obj\Debug\Assignment_4.csproj.CoreCompileInputs.cache
 D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\obj\Debug\Assignment_4.exe
 D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\obj\Debug\Assignment_4.pdb
+=======
+>>>>>>> b99b3c9d3b6ce8d437413cb3f83363ccc54c0602
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\bin\Debug\Assignment_4.exe.config
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\bin\Debug\Assignment_4.exe
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\bin\Debug\Assignment_4.pdb
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\obj\Debug\Assignment_4.csproj.AssemblyReference.cache
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\obj\Debug\Assignment_4.csproj.CoreCompileInputs.cache
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\obj\Debug\Assignment_4.exe
+D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-4\Assignment_4\Assignment_4\obj\Debug\Assignment_4.pdb
+<<<<<<< HEAD
+=======
+>>>>>>> 571b579 (assignment_4)
+>>>>>>> b99b3c9d3b6ce8d437413cb3f83363ccc54c0602

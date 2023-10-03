@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\obj\Debug\Test_2.csproj.AssemblyReference.cache
 D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\obj\Debug\Test_2.csproj.CoreCompileInputs.cache
 D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\bin\Debug\Test_2.exe.config
@@ -5,3 +6,12 @@ D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\bin\Debug\Test_2.exe
 D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\bin\Debug\Test_2.pdb
 D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\obj\Debug\Test_2.exe
 D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\obj\Debug\Test_2.pdb
+=======
+D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\obj\Debug\Test_2.csproj.AssemblyReference.cache
+D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\obj\Debug\Test_2.csproj.CoreCompileInputs.cache
+D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\bin\Debug\Test_2.exe.config
+D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\bin\Debug\Test_2.exe
+D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\bin\Debug\Test_2.pdb
+D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\obj\Debug\Test_2.exe
+D:\TRAINING_ASSIGNMENTS\Assignment\Test_2\Test_2\Test_2\obj\Debug\Test_2.pdb
+>>>>>>> b99b3c9d3b6ce8d437413cb3f83363ccc54c0602
