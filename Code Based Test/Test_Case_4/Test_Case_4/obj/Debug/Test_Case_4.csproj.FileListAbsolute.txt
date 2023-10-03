@@ -1,0 +1,6 @@
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_4\Test_Case_4\bin\Debug\Test_Case_4.exe.config
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_4\Test_Case_4\bin\Debug\Test_Case_4.exe
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_4\Test_Case_4\bin\Debug\Test_Case_4.pdb
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_4\Test_Case_4\obj\Debug\Test_Case_4.csproj.CoreCompileInputs.cache
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_4\Test_Case_4\obj\Debug\Test_Case_4.exe
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_4\Test_Case_4\obj\Debug\Test_Case_4.pdb
