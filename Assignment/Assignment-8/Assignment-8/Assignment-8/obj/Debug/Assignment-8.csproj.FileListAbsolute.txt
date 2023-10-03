@@ -1,6 +1,0 @@
-D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-8\Assignment-8\Assignment-8\obj\Debug\Assignment-8.csproj.CoreCompileInputs.cache
-D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-8\Assignment-8\Assignment-8\bin\Debug\Assignment-8.exe.config
-D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-8\Assignment-8\Assignment-8\bin\Debug\Assignment-8.exe
-D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-8\Assignment-8\Assignment-8\bin\Debug\Assignment-8.pdb
-D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-8\Assignment-8\Assignment-8\obj\Debug\Assignment-8.exe
-D:\TRAINING_ASSIGNMENTS\Assignment\Assignment-8\Assignment-8\Assignment-8\obj\Debug\Assignment-8.pdb

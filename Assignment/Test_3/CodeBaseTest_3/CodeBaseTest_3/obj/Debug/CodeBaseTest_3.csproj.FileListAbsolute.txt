@@ -1,7 +1,0 @@
-D:\TRAINING_ASSIGNMENTS\Assignment\Test_3\CodeBaseTest_3\CodeBaseTest_3\bin\Debug\CodeBaseTest_3.exe.config
-D:\TRAINING_ASSIGNMENTS\Assignment\Test_3\CodeBaseTest_3\CodeBaseTest_3\bin\Debug\CodeBaseTest_3.exe
-D:\TRAINING_ASSIGNMENTS\Assignment\Test_3\CodeBaseTest_3\CodeBaseTest_3\bin\Debug\CodeBaseTest_3.pdb
-D:\TRAINING_ASSIGNMENTS\Assignment\Test_3\CodeBaseTest_3\CodeBaseTest_3\obj\Debug\CodeBaseTest_3.csproj.AssemblyReference.cache
-D:\TRAINING_ASSIGNMENTS\Assignment\Test_3\CodeBaseTest_3\CodeBaseTest_3\obj\Debug\CodeBaseTest_3.csproj.CoreCompileInputs.cache
-D:\TRAINING_ASSIGNMENTS\Assignment\Test_3\CodeBaseTest_3\CodeBaseTest_3\obj\Debug\CodeBaseTest_3.exe
-D:\TRAINING_ASSIGNMENTS\Assignment\Test_3\CodeBaseTest_3\CodeBaseTest_3\obj\Debug\CodeBaseTest_3.pdb
