@@ -1,0 +1,7 @@
+D:\TRAINING_ASSIGNMENTS\Case_Study\Case_Study\Case_Study\bin\Debug\Case_Study.exe.config
+D:\TRAINING_ASSIGNMENTS\Case_Study\Case_Study\Case_Study\bin\Debug\Case_Study.exe
+D:\TRAINING_ASSIGNMENTS\Case_Study\Case_Study\Case_Study\bin\Debug\Case_Study.pdb
+D:\TRAINING_ASSIGNMENTS\Case_Study\Case_Study\Case_Study\obj\Debug\Case_Study.csproj.AssemblyReference.cache
+D:\TRAINING_ASSIGNMENTS\Case_Study\Case_Study\Case_Study\obj\Debug\Case_Study.csproj.CoreCompileInputs.cache
+D:\TRAINING_ASSIGNMENTS\Case_Study\Case_Study\Case_Study\obj\Debug\Case_Study.exe
+D:\TRAINING_ASSIGNMENTS\Case_Study\Case_Study\Case_Study\obj\Debug\Case_Study.pdb

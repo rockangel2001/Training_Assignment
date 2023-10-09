@@ -3,31 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Case_Study2;
-using Case_Study1;
 
-namespace Case_Study3
+namespace Case_Study
 {
-    public interface IUserInterface
-    {
-        void ShowFirstScreen();
-        void ShowStudentScreen();
-        void ShowAdminScreen();
-        void ShowAllStudentsScreen();
-        void ShowStudentRegistrationScreen();
-        void IntroduceNewCourseScreen();
-        void ShowAllCoursesScreen();
-    }
-
     public class UserInterface : IUserInterface
     {
-        private AppEngine appEngine = new AppEngine();
-
+        private AppEngine appEngine;
+        public UserInterface(AppEngine appEngine)
+        {
+            this.appEngine = appEngine;
+        }
+        // Ask user as Student or Admin
         public void ShowFirstScreen()
         {
-            Console.WriteLine("Welcome to SMS (Student Mgmt. System) v1.0");
-            Console.WriteLine("Tell us who you are : \n1. Student\n2. Admin\n3. Exit");
-            Console.Write("Enter your choice (1, 2, or 3): ");
+            Console.WriteLine("Welcome to Student Managment");
+            Console.WriteLine("Who are you : \n1. Student\n2. Admin\n3. Exit");
+            Console.Write("Enter your choice (1, 2 or 3): ");
             int opt = Convert.ToInt32(Console.ReadLine());
 
             switch (opt)
@@ -39,7 +30,7 @@ namespace Case_Study3
                     ShowAdminScreen();
                     break;
                 case 3:
-                    Console.WriteLine("Exiting the program. Goodbye!");
+                    Console.WriteLine("Exiting ");
                     Environment.Exit(0);
                     break;
                 default:
@@ -49,6 +40,7 @@ namespace Case_Study3
             }
         }
 
+        // Student Menu Option
         public void ShowStudentScreen()
         {
             Console.WriteLine("Student Menu:");
@@ -77,12 +69,15 @@ namespace Case_Study3
             }
         }
 
+
+        // Admin menu Opttion
         public void ShowAdminScreen()
         {
             Console.WriteLine("Admin Menu:");
             Console.WriteLine("1. Introduce New Course");
             Console.WriteLine("2. View All Students");
-            Console.WriteLine("3. Exit");
+            Console.WriteLine("3. Enrollment Details");
+            Console.WriteLine("4. Exit");
             Console.Write("Enter your choice (1-3): ");
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -94,10 +89,15 @@ namespace Case_Study3
                 case 2:
                     ShowAllStudentsScreen();
                     break;
+
                 case 3:
+                    ShowEnrollmentsScreen();
+                    break;
+                case 4:
                     Console.WriteLine("Exiting Admin Menu.");
                     ShowFirstScreen();
                     break;
+
                 default:
                     Console.WriteLine("Invalid choice. Please enter a valid option (1-3).");
                     ShowAdminScreen();
@@ -105,6 +105,7 @@ namespace Case_Study3
             }
         }
 
+        //list of all students
         public void ShowAllStudentsScreen()
         {
             Console.WriteLine("List of Students:");
@@ -112,11 +113,10 @@ namespace Case_Study3
             {
                 Console.WriteLine($"Student ID: {student.Id}, Name: {student.Name}, Date of Birth: {student.DateOfBirth.ToShortDateString()}");
             }
-            Console.WriteLine("Press Enter to return to the previous menu...");
-            Console.ReadLine();
             ShowAdminScreen();
         }
 
+        // Register students and Enroll in course
         public void ShowStudentRegistrationScreen()
         {
             Console.Write("Enter Student ID: ");
@@ -126,14 +126,24 @@ namespace Case_Study3
             Console.Write("Enter Student Date of Birth (yyyy-MM-dd): ");
             DateTime studentDob = Convert.ToDateTime(Console.ReadLine());
 
+            Console.WriteLine("Available Courses:");
+            List<Course> courses = appEngine.ListOfCourses();
+            for (int i = 0; i < courses.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. {courses[i].CourseName}");
+            }
+
+            Console.Write("Choose course you want to enroll in: ");
+            int courseChosen = Convert.ToInt32(Console.ReadLine());
+            Course selectedCourse = courses[courseChosen - 1];
             // Register the student
             appEngine.Register(new Student(studentId, studentName, studentDob));
-            Console.WriteLine("Student registered successfully.");
-            Console.WriteLine("Press Enter to return to the previous menu...");
-            Console.ReadLine();
+            appEngine.Enroll(appEngine.ListOfStudents().Last(), selectedCourse);
+            Console.WriteLine("Student enrolled successfully.");
             ShowStudentScreen();
         }
 
+        // Introduce new course
         public void IntroduceNewCourseScreen()
         {
             Console.Write("Enter Course ID: ");
@@ -144,11 +154,10 @@ namespace Case_Study3
             // Introduce a new course
             appEngine.Introduce(new Course(courseId, courseName));
             Console.WriteLine("Course introduced successfully.");
-            Console.WriteLine("Press Enter to return to the previous menu...");
-            Console.ReadLine();
             ShowAdminScreen();
         }
 
+        //Display list of all courses
         public void ShowAllCoursesScreen()
         {
             Console.WriteLine("List of Courses:");
@@ -156,17 +165,18 @@ namespace Case_Study3
             {
                 Console.WriteLine($"Course ID: {course.CourseId}, Name: {course.CourseName}");
             }
-            Console.WriteLine("Press Enter to return to the previous menu...");
-            Console.ReadLine();
             ShowStudentScreen();
         }
-    }
 
-    public class App
-    {
-        static void Main(string[] args)
+        //list of all enrollments
+        public void ShowEnrollmentsScreen()
         {
-            new UserInterface().ShowFirstScreen();
+            Console.WriteLine("List of Enrollments:");
+            foreach (Enrollment enrollment in appEngine.ListOfEnrollments())
+            {
+                Console.WriteLine($"Student ID: {enrollment.Student.Id}, Student Name: {enrollment.Student.Name}, Course ID: {enrollment.Course.CourseId},Course Name: {enrollment.Course.CourseName}, Enrollment Date: {enrollment.EnrollmentDate}");
+            }
+            ShowAdminScreen();
         }
     }
 }
