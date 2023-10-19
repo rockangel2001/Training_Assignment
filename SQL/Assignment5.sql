@@ -47,5 +47,5 @@ print 'Deductions: ' + cast (@Deductions as varchar (255))
 print 'Gross Salary: ' + cast (@GrossSalary as varchar (255))
 print 'Net Salary: ' + cast (@NetSalary as varchar (255))
 end
--- Execute the procedure to generate a payslip for employee with EmpNo 7369
+-- Execute the procedure to generate a payslip for employee with EmpNo 7902
 exec Payslip @EmployeeID = 7902
