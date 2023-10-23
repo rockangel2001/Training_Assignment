@@ -59,9 +59,6 @@ namespace adocodetest6
             finally
             {
                 con.Close();
-
-
-
             }
         }
         static void showdata()
@@ -84,13 +81,7 @@ namespace adocodetest6
                         Console.WriteLine("type" + " " + dr[3]);
                     }
                     Console.ReadLine();
-
-
-
                 }
-
-
-
             }
             catch (SqlException ex)
             {
@@ -99,9 +90,7 @@ namespace adocodetest6
             finally
             {
                 con.Close();
-
             }
         }
-
     }
 }
