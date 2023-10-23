@@ -7,11 +7,8 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
-
-namespace Code_Base_Test_6
+namespace adocodetest6
 {
-    //c. Using Ado.net classes/methods, insert employee record in the table by invoking the procedure  
-    // d.Display all the records(including the newely added record)
     class Program
     {
         static void Main(string[] args)
@@ -19,16 +16,15 @@ namespace Code_Base_Test_6
             Program.connection();
             Program.showdata();
         }
-
         static void connection()
         {
-            string cs = ConfigurationManager.ConnectionStrings["data"].ConnectionString;
+            string cs = ConfigurationManager.ConnectionStrings["spdata"].ConnectionString;
             SqlConnection con = null;
             try
             {
                 using (con = new SqlConnection(cs))
                 {
-                    string query = "addemployees_1";
+                    string query = "addemployee";
                     SqlCommand cmd = new SqlCommand(query, con);
                     cmd.CommandType = CommandType.StoredProcedure;
                     Console.WriteLine("enter the employee name ");
@@ -38,11 +34,13 @@ namespace Code_Base_Test_6
                     Console.WriteLine("enter the employee type ");
                     string emptype = Console.ReadLine();
 
+
+
                     cmd.Parameters.Add(new SqlParameter("@empname", empname));
                     cmd.Parameters.Add(new SqlParameter("@empsal", empsal));
                     cmd.Parameters.Add(new SqlParameter("@emptype", emptype));
                     con.Open();
-                    int a = cmd.ExecuteNonQuery();
+                    int a= cmd.ExecuteNonQuery();
                     if (a > 0)
                     {
                         Console.WriteLine("the data is inserted");
@@ -62,14 +60,13 @@ namespace Code_Base_Test_6
             {
                 con.Close();
 
+
+
             }
         }
-
-
-
         static void showdata()
         {
-            string cs = ConfigurationManager.ConnectionStrings["data"].ConnectionString;
+            string cs = ConfigurationManager.ConnectionStrings["spdata"].ConnectionString;
             SqlConnection con = null;
             try
             {
@@ -87,7 +84,13 @@ namespace Code_Base_Test_6
                         Console.WriteLine("type" + " " + dr[3]);
                     }
                     Console.ReadLine();
+
+
+
                 }
+
+
+
             }
             catch (SqlException ex)
             {
@@ -96,7 +99,9 @@ namespace Code_Base_Test_6
             finally
             {
                 con.Close();
+
             }
         }
+
     }
 }

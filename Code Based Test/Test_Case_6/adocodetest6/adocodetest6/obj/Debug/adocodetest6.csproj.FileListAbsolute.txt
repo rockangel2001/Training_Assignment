@@ -1,0 +1,7 @@
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_6\adocodetest6\adocodetest6\bin\Debug\adocodetest6.exe.config
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_6\adocodetest6\adocodetest6\bin\Debug\adocodetest6.exe
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_6\adocodetest6\adocodetest6\bin\Debug\adocodetest6.pdb
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_6\adocodetest6\adocodetest6\obj\Debug\adocodetest6.csproj.AssemblyReference.cache
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_6\adocodetest6\adocodetest6\obj\Debug\adocodetest6.csproj.CoreCompileInputs.cache
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_6\adocodetest6\adocodetest6\obj\Debug\adocodetest6.exe
+D:\TRAINING_ASSIGNMENTS\Code Based Test\Test_Case_6\adocodetest6\adocodetest6\obj\Debug\adocodetest6.pdb
