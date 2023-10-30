@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Question_1_Calculator</title>
+</head>
+<body>
+<h1>Calculate Multiplication and Division -</h1>
+<p>Enter two numbers to calculate the following multiplication and division:</p>
+ 
+    <label for="num1">Enter the first number: </label>
+<input type="number" id="num1" placeholder="Enter the first number" />
+ 
+    <label for="num2">Enter the second number: </label>
+<input type="number" id="num2" placeholder="Enter the second number" />
+ 
+    <button onclick="calculate()">Calculate</button>
+ 
+    <p id="result"></p>
+ 
+    <script>
+        function calculate() {
+            // Get the input values from the user
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+ 
+            if (isNaN(num1) || isNaN(num2)) {
+                document.getElementById("result").textContent = "Please enter valid numbers.";
+            } else {
+                // Calculate multiplication and division
+                var multipliResult = num1 * num2;
+                var diviResult = num1 / num2;
+ 
+                // Display the results
+                document.getElementById("result").textContent = "Multiplication: " + multipliResult + ", Division: " + diviResult;
+            }
+        }
+</script>
+</body>
+</html>
+

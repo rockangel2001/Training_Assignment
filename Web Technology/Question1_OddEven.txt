@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question2_OddEven</title>
+</head>
+<body>
+    <h3>Question_2</h3>
+    <div id ="findoddeven"></div>
+
+     <script>
+        for(let x = 0; x <= 15; x++){
+            let ans = `${x}`;
+            if (x%2 === 0){
+                ans+= ' is even';
+            }else if(x===0){
+                ans += ' is even';
+            } else{
+                ans += ' is odd';
+            }
+            ans+= "<br>";
+            document.getElementById("findoddeven").innerHTML += ans;
+        }
+     </script>
+</body>
+</html>
